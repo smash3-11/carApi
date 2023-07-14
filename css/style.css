@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    /* width: 100%; */
+}
+
+.title {
+    color: #000;
+    text-align: center;
+    /* font-family: Gilroy; */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+h1 {
+    text-align: center;
+}
+.box1, .box2, .box3, .box_all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding-left: 100px;
+}
+
+.title {
+    font-size: 24px;
+    margin: 30px 0;
+}
+
+.item {
+    width: 282px;
+    height: 161px;
+   
+    /* margin: 30px 0px 15px; */
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #007FFF;
+    background: #F0F0F0;
+}
+
+.item h3 {
+    color: #000;
+    font-size: 18px;
+    
+    font-weight: 500;
+    line-height: normal;
+}
+
+.item p {
+    color: rgba(0, 0, 0, 0.55);
+    
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.item a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+
+.btn_more {
+    width: 232px;
+    height: 42px;
+   margin: 10px 0;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    background: #0071E3;
+    cursor: pointer;
+}
+.paginate {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+
+    padding: 20px 0;
+}
+.paginate button {
+    border: none;
+    color: blue;
+    background: white;
+    cursor: pointer; 
+}
+/* .btn_hate, .show_more {
+    border: none;
+    color: blue;
+    background: white;
+    cursor: pointer;
+}
+.btn_hate {
+    color: grey;
+    cursor: text;
+
+} */
